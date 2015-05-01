@@ -17,3 +17,8 @@ Clone this repository and vundle:
     git clone https://github.com/gmarik/Vundle.vim.git "$HOME/.vim/bundle/Vundle.vim"
 
 Then start vim and run :BundleInstall.
+
+## Updating
+
+Call the `update.sh` shell script from `$HOME/.vim` to update both the
+repository and the bundles.
