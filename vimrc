@@ -16,4 +16,8 @@ set listchars=tab:→\ ,eol:↵
 " Initialize Vundle and bundles.
 source ~/.vim/vundlerc
 
+set t_Co=256
+syntax on
+colorscheme jellybeans
+
 " Override plugin configurations.
