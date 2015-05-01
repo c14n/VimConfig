@@ -49,3 +49,7 @@ backup-vimrc
 
 download-vimrc || restore-vimrc
 download-vundle || restore-vimrc
+
+ln -sf "${VIMCFGDST}/vimrc" "$HOME/.vimrc"
+
+${VIMCFGDST}/update-bundles.sh
