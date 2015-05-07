@@ -12,6 +12,10 @@ set number
 
 set mouse=a
 
+if has('unnamedplus')
+	set clipboard=unnamed,unnamedplus
+endif
+
 set list
 set listchars=tab:→\ ,eol:↵
 
