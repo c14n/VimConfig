@@ -16,6 +16,12 @@ if has('unnamedplus')
 	set clipboard=unnamed,unnamedplus
 endif
 
+" Replace currently selected text with default register, without yanking
+" replaced text to said register.
+"
+" Default behaviour is still available with P.
+vnoremap p "_dP
+
 set list
 set listchars=tab:→\ ,eol:↵
 
